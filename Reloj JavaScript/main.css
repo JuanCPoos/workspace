@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+body {
+  font-family: "Varela Round", sans-serif;
+  background-color: #aab;
+  color: #fff;
+  font-size: 16px;
+  /* 
+  *background-size: cover;
+  *en el caso de utilizarlo es para que se 
+  adapte el fondo al tamaño de la pantalla del usuario .- 
+  */
+}
+
+.wrap {
+  width: 90%;
+  max-width: 1000px;
+  margin: 10px;
+}
+
+.widget {
+  width: 50%;
+  margin: 2em;
+}
+
+.widget p {
+  display: inline-block;
+  line-height: 1em;
+}
+.fecha {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 0.3125rem;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 100%;
+}
+
+.reloj {
+  width: 100%;
+  padding: 20px;
+  font-size: 4em;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.reloj .caja-segundos {
+  display: inline-block;
+}
+
+.reloj .segundos,
+.reloj .ampm {
+  font-size: 2rem;
+  display: block;
+}
+
+#dia {
+}
+#diaSemana {
+}
+#mes {
+}
+#year {
+}
+
+.diaSemana {
+}
+.dia {
+}
+.mes {
+}
+.year {
+}
