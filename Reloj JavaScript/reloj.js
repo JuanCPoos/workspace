@@ -25,7 +25,7 @@
             var semana = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
             pDiaSemana.textContent = semana[diaSemana];
 
-            pDia.textContent = semana[dia];
+            pDia.textContent = dia;
 
             var meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 
             'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 
